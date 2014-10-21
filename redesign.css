@@ -13,10 +13,23 @@ h1{
 }
 */
 
-#fieldname{
+
+
+#fieldname1{
+float:left;
+width:7em;
+margin-right:1em;
+
+}
+
+#fieldname2{
 float:left;
 width:10em;
 margin-right:1em;
+}
+
+input{
+  margin-bottom:1em;
 }
 
 
