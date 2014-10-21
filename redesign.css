@@ -1,7 +1,7 @@
 h1{
   text-align:center;
 }
-
+/*
 .form1{
   float:left;
   width:50%;
@@ -11,6 +11,15 @@ h1{
   float:right;
   width:50%;
 }
+*/
+
+#fieldname{
+float:left;
+width:10em;
+margin-right:1em;
+}
+
+
 
 .body{
   min-width:600px;
