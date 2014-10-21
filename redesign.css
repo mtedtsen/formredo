@@ -4,10 +4,16 @@ h1{
 
 .form1{
   float:left;
+  width:50%;
 }
 
 .form2{
   float:right;
+  width:50%;
+}
+
+.body{
+  min-width:600px;
 }
 
 
