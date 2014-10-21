@@ -1,17 +1,17 @@
 h1{
   text-align:center;
 }
-/*
+
 .form1{
   float:left;
-  width:50%;
+ 
 }
 
 .form2{
   float:right;
-  width:50%;
+ 
 }
-*/
+
 
 
 
@@ -37,8 +37,18 @@ input{
   margin-bottom:0;
 }
 
-
-
+.recognizeform1{
+  display:block;
+  margin-bottom:10px;
+}
+.recognizeform2{
+  display:block;
+  margin-bottom:1em;
+}
+.descriptor1{
+  display:block;
+  margin-bottom:10px;
+}
 
 .body{
   min-width:600px;
