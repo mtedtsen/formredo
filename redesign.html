@@ -1,65 +1,64 @@
 <!DOCTYPE html>
 <html lang = "en">
 
-<head>
-Forever21 Login Could Be
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type"text/css" href="redesign.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type"text/css" href="redesign.css">
+  </head>
 
-<body>
-<h1>FOREVER 21</h1>
+  <body>
+    <h1>FOREVER 21</h1>
 
+    <div class="containerform">
+      <div class="form1">
+        <form name="currentmember" method="get">
 
-<div class="form1">
+          <label class="recognizeform1">LOG-IN REGISTERED USERS</label><br>
+          <label class="descriptor1">Enter your email and password below to access your order status<br> and manage your account.</label><br>
 
-<form name="currentmember" method="get">
+          <label id="fieldname1">Email:</label><input type="email" name="email" align="left"><br>
+          <label id="fieldname1">Password:</label><input type="password" name="pwd" align="left"><br>
 
-<label class="recognizeform1">LOG-IN REGISTERED USERS</label><br>
-<label class="descriptor1">Enter your email and password eblow to access your order status<br> and manage your account.</label><br>
+          <input type="checkbox" name="Remember" value="login-info">Remember this information?<br>
+          <input type="submit" value="LOG-IN">
+        
+        </form> 
+      </div>
 
-<label id="fieldname1">Email:</label><input type="email" name="email" align="left"><br>
-<label id="fieldname1">Password:</label><input type="password" name="pwd" align="left"><br>
+      <div class="form2">
 
-<input type="checkbox" name="Remember" value="login-info">Remember this information?<br>
-<input type="submit" value="LOG-IN">
-</form> 
+        <form name="newmember" method="get">
 
-</div>
+          <label class="recognizeform2">NEW USERS</label><br>
 
-<div class="form2">
+          <label id="fieldname2">First Name: </label><input type = "text" name="firstname"><br>
+          <label id="fieldname2">Last Name:</label><input type="text" name="lastname"><br>
+          <label id="fieldname2">Date of Birth:</label><input type="text" name="bday" placeholder="mm/dd/yyyy" id="bday"><br>
+          <label id="fieldname2">Email:</label><input type="email" name="emailnew"><br>
+          <label id="fieldname2">Confirm Email:</label><input type="email" name="emailconfirm"><br>
+          <label id="fieldname2">Password:</label><input type="text" name="passwordnew"><br>
+          <label id="fieldname2">Confirm Password:</label><input type="text" name="passwordconfirm"><br>
 
-<form name="newmember" method="get">
+          <label>Sign Up for Our Newletters:</label><br>
+          <div class="checkboxcolumn1">
+            <input type="checkbox" name="newsletters" value="forever21" id="newsletterchecks"> Forever21<br>
+            <input type="checkbox" name="newletters" value="21men" id="newsletterchecks"> 21Men
+          </div>
+          <div class="checkboxcolumn2">
+            <input type="checkbox" name="newsletters" value="love21" id="newsletterchecks"> Love21<br>
+            <input type="checkbox" name="newsletters" value="forever21plus" id="newsletterchecks"> Forever21+
+          </div>
+          <div class="checkboxcolumn3">
+            <input type="checkbox" name="newsletters" value="forever21girls" id="newsletterchecks">Forever21 Girls<br>
+            <input type="checkbox" name="newsletters" value="dailynew" id="newsletterchecks"> Daily New Arrival Alerts<br>
+          </div>
 
-<label class="recognizeform2">NEW USERS</label><br>
+          <input id="submit2" type="submit" value="REGISTER">
+        </form>
 
-<label id="fieldname2">First Name: </label><input type = "text" name="firstname"><br>
-<label id="fieldname2">Last Name:</label><input type="text" name="lastname"><br>
-<label id="fieldname2">Date of Birth:</label><input type="text" name="bday" placeholder="mm/dd/yyyy" id="bday"><br>
-<label id="fieldname2">Email:</label><input type="email" name="emailnew"><br>
-<label id="fieldname2">Confirm Email:</label><input type="email" name="emailconfirm"><br>
-<label id="fieldname2">Password:</label><input type="text" name="passwordnew"><br>
-<label id="fieldname2">Confirm Password:</label><input type="text" name="passwordconfirm"><br>
+      </div>
+    </div>
 
-<label>Sign Up for Our Newletters:</label><br>
-<div class="checkboxcolumn1">
-<input type="checkbox" name="newsletters" value="forever21" id="newsletterchecks"> Forever21<br>
-<input type="checkbox" name="newletters" value="21men" id="newsletterchecks"> 21Men
-</div>
-<div class="checkboxcolumn2">
-<input type="checkbox" name="newsletters" value="love21" id="newsletterchecks"> Love21<br>
-<input type="checkbox" name="newsletters" value="forever21plus" id="newsletterchecks"> Forever21+
-</div>
-<div class="checkboxcolumn3">
-<input type="checkbox" name="newsletters" value="forever21girls" id="newsletterchecks">Forever21 Girls<br>
-<input type="checkbox" name="newsletters" value="dailynew" id="newsletterchecks"> Daily New Arrival Alerts<br>
-</div>
-
-<input id="submit2" type="submit" value="REGISTER">
-</form>
-
-</div>
-
-</body>
+  </body>
 </html>

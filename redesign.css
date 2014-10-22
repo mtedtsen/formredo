@@ -2,15 +2,31 @@ h1{
   text-align:center;
 }
 
-/*forms floated left and right*/
-/*
+
+
 .form1{
+  /*
   float:left;
+  max-width:500px;
+  min-width:320px
+  */
+  display:inline-block;
+
 }
+
 .form2{
+  /*
   float:right;
+  max-width:500px;
+  min-width:320px;
+  */
+  display: inline-block;
+  vertical-align:top;
+  
 }
-*/
+
+
+
 
 /*ligning up input fields in form1 and 2*/
 #fieldname1{
