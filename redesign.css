@@ -4,26 +4,23 @@ h1{
 
 
 
+.containerform{
+  width:60%;
+  margin: 0 auto;
+}
 .form1{
-  /*
+  width:50%;
+ 
   float:left;
-  max-width:500px;
-  min-width:320px
-  */
-  display:inline-block;
 
 }
-
 .form2{
-  /*
-  float:right;
-  max-width:500px;
-  min-width:320px;
-  */
-  display: inline-block;
-  vertical-align:top;
   
+  width:50%;
+  
+  float:left;
 }
+
 
 
 
@@ -82,8 +79,5 @@ input{
 
 
 
-.body{
-  min-width:600px;
-}
 
 
