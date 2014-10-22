@@ -2,25 +2,21 @@ h1{
   text-align:center;
 }
 
+/*forms floated left and right*/
+/*
 .form1{
   float:left;
-  
- 
 }
-
 .form2{
   float:right;
- 
 }
+*/
 
-
-
-
+/*ligning up input fields in form1 and 2*/
 #fieldname1{
 float:left;
 width:7em;
 margin-right:1em;
-
 }
 #fieldname2{
 float:left;
@@ -30,14 +26,16 @@ margin-right:1em;
 
 
 
-
+/*add space under input field*/
 input{
   margin-bottom:1em;
 }
-#newsletterchecks{
+#newsletterchecks{/*takes out margin on checkboxes in form2*/
   margin-bottom:0;
 }
 
+
+/*add space under form titles*/
 .recognizeform1{
   display:block;
   margin-bottom:10px;
@@ -50,6 +48,23 @@ input{
   display:block;
   margin-bottom:10px;
 }
+
+/*make checkbox divs in same horizontal line */
+.checkboxcolumn1{
+  display:inline-block;
+}
+.checkboxcolumn2{
+  display:inline-block;
+}
+.checkboxcolumn3{
+  display:inline-block;
+}
+#submit2{
+  margin-top:1em;
+  display:block;
+}
+
+
 
 .body{
   min-width:600px;
