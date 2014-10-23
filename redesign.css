@@ -78,7 +78,7 @@ form{
   height:35px;
 }
 
-@media (min-width:75em){
+@media (min-width:80em){
 /*lining up input fields in form1 and 2*/
 #fieldname1{
 float:left;
@@ -96,23 +96,36 @@ input{
 /*forms layout big screen*/
 .form1{
   float:left;
-  width:50%;
+  width:49%;
+  
+
  
 }
 .form2{
   float:left;
   width:50%;
-
+  border-left:1px solid;
+}
+.containerform{
+  margin-top:20px;
 }
 .form1subcontainer{
-  border: 1px solid;
-  margin: 0 auto;
+  
+  margin: 0;
+  margin-right:0;
+  margin-left:auto;
   width:80%;
+ 
+
 }
 .form2subcontainer{
-  border: 1px solid;
-  margin: 0 auto;
+  
+  margin: 0;
+  margin-right:10%;
+  margin-left:0;
   width:80%;
+  float:right;
+  
 }
 /*make checkboxes form two in one horizontal line*/
 .checkboxcolumn1{
