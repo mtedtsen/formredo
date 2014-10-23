@@ -6,10 +6,8 @@ h1{
 
 
 
+/*lining up input fields in form1 and 2
 
-
-
-/*lining up input fields in form1 and 2*/
 #fieldname1{
 float:left;
 width:10em;
@@ -20,12 +18,13 @@ float:left;
 width:10em;
 
 }
-
+*/
 
 
 /*add space under input field*/
 input{
   margin-bottom:1em;
+  width:100%;
 }
 #newsletterchecks{/*takes out margin on checkboxes in form2*/
   margin-bottom:0;
@@ -46,7 +45,7 @@ input{
   margin-bottom:10px;
 }
 
-/*make checkbox divs in same horizontal line */
+/*make checkbox divs in same horizontal line 
 .checkboxcolumn1{
   display:inline-block;
 }
@@ -60,7 +59,10 @@ input{
   margin-top:1em;
   display:block;
 }
-
+*/
+#newsletterchecks, #checkboxform1{
+  width:auto;
+}
 
 
 
