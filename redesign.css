@@ -2,8 +2,18 @@ h1{
   padding-top:2em;
   text-align:center;
   padding-bottom:2em;
+  color:white;
+  background-color:black;
+  margin:0;
+  
+  
 }
 
+
+.form1, .form2{
+  width:90%;
+  margin: 0 auto;
+}
 
 
 /*lining up input fields in form1 and 2
@@ -35,10 +45,11 @@ input{
 .recognizeform1{
   display:block;
   margin-bottom:10px;
+  margin-top:10px;
 }
 .recognizeform2{
   display:block;
-  margin-bottom:1em;
+  margin-bottom:10px;
 }
 .descriptor1{
   display:block;
@@ -64,6 +75,9 @@ input{
   width:auto;
 }
 
+#button1{
+  margin-bottom:2em;
+}
 
 
 
