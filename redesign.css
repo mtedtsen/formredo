@@ -19,19 +19,7 @@ h1{
 }
 
 
-/*lining up input fields in form1 and 2
 
-#fieldname1{
-float:left;
-width:10em;
-
-}
-#fieldname2{
-float:left;
-width:10em;
-
-}
-*/
 
 
 /*add space under input field*/
@@ -90,5 +78,61 @@ form{
   height:35px;
 }
 
+@media (min-width:75em){
+/*lining up input fields in form1 and 2*/
+#fieldname1{
+float:left;
+width:7em;
 
+}
+#fieldname2{
+float:left;
+width:12em;
+}
+input{
+  width:auto;
+
+}
+/*forms layout big screen*/
+.form1{
+  float:left;
+  width:50%;
+ 
+}
+.form2{
+  float:left;
+  width:50%;
+
+}
+.form1subcontainer{
+  border: 1px solid;
+  margin: 0 auto;
+  width:80%;
+}
+.form2subcontainer{
+  border: 1px solid;
+  margin: 0 auto;
+  width:80%;
+}
+/*make checkboxes form two in one horizontal line*/
+.checkboxcolumn1{
+  display:inline-block;
+}
+.checkboxcolumn2{
+  display:inline-block;
+}
+.checkboxcolumn3{
+  display:inline-block;
+}
+#submit2{/*but submit button in form2 on own line*/
+  display:block;
+}
+/*make form1 and 2 equal start top point*/
+.recognizeform2{
+  margin-top:20px;
+}
+
+
+
+}
 
