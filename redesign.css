@@ -1,5 +1,7 @@
 h1{
+  padding-top:2em;
   text-align:center;
+  padding-bottom:2em;
 }
 
 
@@ -10,15 +12,15 @@ h1{
 }
 .form1{
   width:50%;
- 
   float:left;
+  min-width:320px
 
 }
 .form2{
-  
   width:50%;
-  
   float:left;
+  min-width:320px;
+
 }
 
 
@@ -28,7 +30,7 @@ h1{
 /*ligning up input fields in form1 and 2*/
 #fieldname1{
 float:left;
-width:7em;
+width:10em;
 margin-right:1em;
 }
 #fieldname2{
