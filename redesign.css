@@ -5,14 +5,17 @@ h1{
   color:white;
   background-color:black;
   margin:0;
+ 
   
-  
+   font-family:Arial,Helvetica,sans-serif; 
 }
 
 
 .form1, .form2{
   width:90%;
   margin: 0 auto;
+  font-family:Arial,Helvetica,sans-serif; 
+  letter-spacing:2px;
 }
 
 
@@ -35,6 +38,9 @@ width:10em;
 input{
   margin-bottom:1em;
   width:100%;
+  height:25px;
+  color: #888888 ;
+ 
 }
 #newsletterchecks{/*takes out margin on checkboxes in form2*/
   margin-bottom:0;
@@ -44,16 +50,17 @@ input{
 /*add space under form titles*/
 .recognizeform1{
   display:block;
-  margin-bottom:10px;
-  margin-top:10px;
+  margin-bottom:5px;
+  margin-top:20px;
+  color:black;
 }
 .recognizeform2{
   display:block;
-  margin-bottom:10px;
+  margin-bottom:5px;
+  color:black;
 }
-.descriptor1{
-  display:block;
-  margin-bottom:10px;
+form{
+  color:#888888  ;
 }
 
 /*make checkbox divs in same horizontal line 
@@ -75,8 +82,12 @@ input{
   width:auto;
 }
 
-#button1{
+.checkboxcolumn1{
+  
+}
+#button1, #submit2{
   margin-bottom:2em;
+  height:35px;
 }
 
 
