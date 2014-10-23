@@ -7,24 +7,32 @@ h1{
 
 
 .containerform{
-  width:60%
-  margin: 0 auto; 
- 
-
+  width:60%;
+  margin:0 auto;
 
 }
 .form1{
   float:left;
   width:50%;
-  min-width:395px;
+  min-width:439px;
+ 
   
 }
 .form2{
   float:left;
   width:50%;
-  min-width:395px;
+  min-width:439px; 
 }
-
+.form1subcontainer{
+  width:90%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.form2subcontainer{
+  width:90%;
+  margin: 0 auto;
+  border: 1px solid;
+}
 
 
 
