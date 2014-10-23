@@ -7,36 +7,38 @@ h1{
 
 
 .containerform{
-  width:60%;
-  margin: 0 auto;
+  width:60%
+  margin: 0 auto; 
+ 
+
+
 }
 .form1{
-  width:50%;
   float:left;
-  min-width:320px
-
+  width:50%;
+  min-width:395px;
+  
 }
 .form2{
-  width:50%;
   float:left;
-  min-width:320px;
-
+  width:50%;
+  min-width:395px;
 }
 
 
 
 
 
-/*ligning up input fields in form1 and 2*/
+/*lining up input fields in form1 and 2*/
 #fieldname1{
 float:left;
 width:10em;
-margin-right:1em;
+
 }
 #fieldname2{
 float:left;
 width:10em;
-margin-right:1em;
+
 }
 
 
