@@ -18,16 +18,14 @@ h1{
   letter-spacing:2px;
 }
 
-
+input[type="submit"]{
+  background-color:gray;
+  color:white;
+}
 
 input[type="checkbox"]{
-  -moz-appearance:none;
-  width : 1em;
-	height :25px;
-        width:50px;
+  display:default;
 
-        
-  
 }
 
 /*add space under input field*/
