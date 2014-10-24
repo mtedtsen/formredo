@@ -6,17 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type"text/css" href="redesign.css">
-    <script src="jquery.js"></script>
-    <script>
-        $(document).ready(function(){
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+
+     
         
-           alert("I'm working!");
-        });
-
-
-
-
-    </script>
+ 
   </head>
 
   <body> 
@@ -58,9 +53,12 @@
           <label id="fieldname2">First Name:<br></label><input type = "text" name="firstname" ><br>
           <label id="fieldname2">Last Name:<br></label><input type="text" name="lastname"><br>
           <label id="fieldname2">Date of Birth:<br></label><input type="text" name="bday" placeholder="mm/dd/yyyy" id="bday" ><br>
-           
+  <script>         
+  jQuery(function($){
+         $("#bday").mask("99/99/9999", {placeholder: "  "});
+        }); 
 
-
+  </script>
 
 
           <label id="fieldname2">Email:<br></label><input type="email" name="emailnew"><br>
