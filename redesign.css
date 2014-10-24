@@ -26,8 +26,9 @@ h1{
 input{
   margin-bottom:1em;
   width:100%;
-  height:25px;
+  height:35px;
   color: #888888 ;
+  font-size:18px;
   
 }
 #newsletterchecks{/*takes out margin on checkboxes in form2*/
@@ -57,7 +58,7 @@ form{
 }
 #button1, #submit2{
   margin-bottom:2em;
-  height:35px;
+  height:50px;
 }
 /*
 #checkboxtext input[type=checkbox]{
@@ -67,9 +68,30 @@ form{
 }
 */
 
+@media (max-width:80em){
+  label{
+    font-size:20px;
+  }
 
+}
 
 @media (min-width:80em){
+label{
+  vertical-align:center;
+  
+}
+input{
+  margin-bottom:1em;
+  width:100%;
+  height:25px;
+  color: #888888 ;
+  font-size:15px;
+  
+}
+#button1, #submit2{
+  margin-bottom:2em;
+  height:35px;
+}
 /*lining up input fields in form1 and 2*/
 #fieldname1{
 float:left;
@@ -84,6 +106,7 @@ input{
   width:auto;
 
 }
+
 /*forms layout big screen*/
 .form1{
   float:left;
