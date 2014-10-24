@@ -20,7 +20,15 @@ h1{
 
 
 
+input[type="checkbox"]{
+  -moz-appearance:none;
+  width : 1em;
+	height :25px;
+        width:50px;
 
+        
+  
+}
 
 /*add space under input field*/
 input{
@@ -29,7 +37,8 @@ input{
   height:35px;
   color: #888888 ;
   font-size:18px;
-  
+   border: 1px solid #B0B0B0;
+  border-radius:0px;
 }
 #newsletterchecks{/*takes out margin on checkboxes in form2*/
   margin-bottom:0;
@@ -60,13 +69,7 @@ form{
   margin-bottom:2em;
   height:50px;
 }
-/*
-#checkboxtext input[type=checkbox]{
-  position:relative;
-  vertical-align: middle;
-  
-}
-*/
+
 
 @media (max-width:80em){
   label{
@@ -86,6 +89,7 @@ input{
   height:25px;
   color: #888888 ;
   font-size:15px;
+
   
 }
 #button1, #submit2{
